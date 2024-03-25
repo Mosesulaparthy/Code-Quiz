@@ -1,0 +1,92 @@
+body {
+  font-family: Arial;
+  font-size: 120%;
+  
+  background-color: #f9f9f9;
+opacity: 0.8;
+background-size: 48px 48px;
+background-image:  repeating-linear-gradient(0deg, #000, #000 2.4000000000000004px, #f9f9f9 2.4000000000000004px, #f9f9f9);
+}
+a {
+  color: rgb(247, 6, 6);
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color:rgb(247, 6, 6);
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+  border: 0;
+  transition: background-color 0.1s;
+}
+
+button:hover {
+  background-color: #8570a5;
+}
+
+.choices button {
+  display: block;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #53387a;
+}
+
+.wrapper {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+.scores {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 10px;
+  color: gray;
+  border-top: 2px solid #ccc;
+}
+
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
